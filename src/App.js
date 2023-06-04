@@ -4,6 +4,7 @@ import Header from './component/Header'
 import Footer from './component/Footer'
 import Content from './component/content'
 import Particles from './component/config/Homebg'
+import Home from './component/Home'
 export default function App() {
   const [page, setPage] = useState({
     value: 'PORTFOLIO',
@@ -15,7 +16,8 @@ export default function App() {
       </header>
       <div id="content-wrap" style={{ position: 'relative', zIndex: '0', width: '100%' }}>
         <Particles />
-        <Content />
+        <Home />
+        {/* <Content /> */}
       </div>
       <footer className="footer">
         <Footer />

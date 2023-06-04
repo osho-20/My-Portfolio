@@ -39,7 +39,7 @@ export default function Particle() {
                                 mode: "bubble",
                                 parallax: {
                                     enable: false,
-                                    force: 2,
+                                    force: 200,
                                     smooth: 10
                                 }
                             },
