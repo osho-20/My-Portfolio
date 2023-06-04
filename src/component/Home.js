@@ -13,22 +13,24 @@ import IMG10 from '../component/images/express.png'
 import IMG11 from '../component/images/css.png'
 import IMG12 from '../component/images/linux.png'
 import IMG13 from '../component/images/git.png'
+import IMG14 from '../component/images/mongo.png'
 export default function Content() {
     return (
         <div>
             <img src={IMG4} className="courcesType2" />
             <img src={IMG5} className="courcesType2" />
             <img src={IMG3} className="courcesType2" />
-            <img src={IMG1} className="courcesType1" />
+            <img src={IMG8} className="courcesType2" />
             <img src={IMG2} className="courcesType1" />
             <img src={IMG6} className="courcesType1" />
             <img src={IMG7} className="courcesType2" />
-            <img src={IMG8} className="courcesType2" />
+            <img src={IMG1} className="courcesType1" />
             <img src={IMG9} className="courcesType2" />
-            <img src={IMG10} className="courcesType3" />
+            <img src={IMG14} className="courcesType1" />
             <img src={IMG11} className="courcesType1" />
             <img src={IMG12} className="courcesType3" />
             <img src={IMG13} className="courcesType3" />
+            <img src={IMG10} className="courcesType3" />
         </div >
     )
 }
