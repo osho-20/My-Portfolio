@@ -16,11 +16,11 @@ import IMG13 from '../component/images/git.png'
 export default function Content() {
     return (
         <div>
-            <img src={IMG1} className="courcesType1" />
-            <img src={IMG2} className="courcesType1" />
-            <img src={IMG3} className="courcesType2" />
             <img src={IMG4} className="courcesType2" />
             <img src={IMG5} className="courcesType2" />
+            <img src={IMG3} className="courcesType2" />
+            <img src={IMG1} className="courcesType1" />
+            <img src={IMG2} className="courcesType1" />
             <img src={IMG6} className="courcesType1" />
             <img src={IMG7} className="courcesType2" />
             <img src={IMG8} className="courcesType2" />

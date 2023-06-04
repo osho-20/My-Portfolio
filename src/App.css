@@ -227,6 +227,66 @@ li.menu1:hover {
   font-family: 'Comfortaa';
 }
 
+.cont {
+  color: white;
+  margin: 100px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+  width: 100px;
+  text-align: left;
+}
+
+input,
+textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 410px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  width: 50%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+  /* font-size: 15px; */
+  font-weight: 1;
+}
+
 /* 
     cources
 */
@@ -241,6 +301,7 @@ li.menu1:hover {
   width: 200px;
   height: 130px;
   margin: 100px 0px;
+  padding-top: 5px;
 }
 
 .courcesType3 {
@@ -270,12 +331,21 @@ li.menu1:hover {
     width: 130px;
     height: 80px;
     margin: 50px 0px;
+
   }
 
   .courcesType3 {
     width: 150px;
     height: 80px;
     margin: 50px 0px;
+  }
+
+  input,
+  textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 210px;
   }
 }
 
@@ -312,6 +382,7 @@ li.menu1:hover {
     height: 50px;
     margin: 30px 10px;
   }
+
 }
 
 @media screen and (min-width:0px) and (max-width:330px) {
@@ -333,7 +404,7 @@ li.menu1:hover {
   justify-content: center;
   align-items: center;
   margin: auto;
-  border-radius: 1em;
+  border-radius: 0.5em;
   margin-left: 0px;
   margin-right: 0px;
   transition: ease-in-out 0.3s;

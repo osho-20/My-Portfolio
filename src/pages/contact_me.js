@@ -3,7 +3,8 @@ import '../App.css';
 import Header from '../component/Header'
 import Footer from '../component/Footer'
 import Background from '../component/config/Contactbg'
-function Contact() {
+import ContactForm from '../component/Contact';
+export default function Contact() {
   useEffect(() => {
     document.title = 'Home';
   }, [])
@@ -17,6 +18,7 @@ function Contact() {
       </header>
       <section>
         <Background />
+        <ContactForm />
       </section>
       <footer className="footer">
         <Footer />
@@ -25,4 +27,3 @@ function Contact() {
   );
 }
 
-export default Contact;
