@@ -14,7 +14,7 @@ export default function App() {
       <header>
         <Header Page={{ page: page }} />
       </header>
-      <div id="content-wrap" style={{ position: 'relative', zIndex: '0', width: '100%' }}>
+      <div id="content-wrap" style={{ position: 'relative', zIndex: '0', width: '100%', bottom: '30px' }}>
         <Particles />
         <Home />
         {/* <Content /> */}

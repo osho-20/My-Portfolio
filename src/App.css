@@ -136,9 +136,10 @@ li.menu1:hover {
   transition: all 0.3s ease-in-out;
 }
 
-.content-wrap {
+/* .content-wrap {
   padding-bottom: 2.5em;
-}
+  bottom: 150px !important;
+} */
 
 /*-----------------------------------------------------------footer--------------------------------------*/
 .footer {
